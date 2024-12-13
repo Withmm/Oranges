@@ -62,3 +62,5 @@ extern	char *			logbuf;
 extern	const int		LOGBUF_SIZE;
 extern	char *			logdiskbuf;
 extern	const int		LOGDISKBUF_SIZE;
+extern  u32			logpos;
+extern  const u32		LOG_END;
