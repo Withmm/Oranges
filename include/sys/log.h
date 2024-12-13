@@ -16,6 +16,9 @@
  *
  * Usage: Include this file in your project to enable memory-based logging.
  */
+#ifndef _ORANGES_LOG_H
+#define _ORANGES_LOG_H
+
 #include "type.h"
 void log(u8 level, const char *fmt, ...);
 
@@ -35,5 +38,4 @@ typedef struct log_entry {
 #define DEBUG(fmt, ...) LOG(LOG_DEBUG, fmt, ##__VA_ARGS__)
 
 
-
-
+#endif

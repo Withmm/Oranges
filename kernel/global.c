@@ -94,5 +94,6 @@ PUBLIC const int LOGBUF_SIZE = 0x100000;
 PUBLIC char *logdiskbuf = (char *)0x900000;
 PUBLIC const int LOGDISKBUF_SIZE = 0x100000;
 
-PUBLIC u32 logpos = 0x800000;
+PUBLIC u32 r_logpos = 0x800000;
+PUBLIC u32 w_logpos = 0x800000;
 PUBLIC const u32 LOG_END = 0xA00000;
